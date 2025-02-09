@@ -7,7 +7,7 @@
 			"name": "aaaaaa started with workbooks",
 			"templates": [
 				{
-					"id": "test/liv/books",
+					"id": "../../../../../../test/refs/heads/main/liv/books",
 					"author": "Microsoft",
 					"description": "Links to official Workbooks documentation",
 					"name": "Documentation"
