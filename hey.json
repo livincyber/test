@@ -7,7 +7,7 @@
 			"name": "Getting started with workbooks",
 			"templates": [
 				{
-					"id": "Workbooks/Azure Monitor - Getting Started/Getting Started Resources",
+					"id": "test/liv/books",
 					"author": "Microsoft",
 					"description": "Links to official Workbooks documentation",
 					"name": "Documentation"
