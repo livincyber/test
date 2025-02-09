@@ -3,11 +3,11 @@
 	"version": "TemplateGallery/1.0",
 	"categories": [
 		{
-			"id": "Tosta",
-			"name": "aaaaaa started with workbooks",
+			"id": "Azure Monitor - Getting Started",
+			"name": "Getting started with workbooks",
 			"templates": [
 				{
-					"id": "../../../livincyber/test/liv/books/books.workbook",
+					"id": "Workbooks/Azure Monitor - Getting Started/Getting Started Resources",
 					"author": "Microsoft",
 					"description": "Links to official Workbooks documentation",
 					"name": "Documentation"
