@@ -7,7 +7,7 @@
 			"name": "Getting started with workbooks",
 			"templates": [
 				{
-					"id": "test/liv/books",
+					"id": "test/liv/books#23",
 					"author": "Microsoft",
 					"description": "Links to official Workbooks documentation",
 					"name": "Documentation"
@@ -25,19 +25,19 @@
 			"name": "Virtual Machines",
 			"templates": [
 				{
-					"id": "Workbooks/Virtual Machines/At-scale Metrics",
+					"id": "test/liv/books?ref=main",
 					"author": "Microsoft",
 					"name": "Key Metrics"
 				},
 				{
-					"id": "Workbooks/Virtual Machines - Performance Analysis/Performance Counters (Azure Preview)",
+					"id": "test/liv/books&ref=main",
 					"author": "Microsoft",
 					"description": "Provides CPU, Memory, Disk, and Network metrics collected by Azure Monitor for VMs (uses 'InsightsMetrics' table in Log analytics).",
 					"name": "Performance Counters (Azure Preview)",
 					"isPreview": true
 				},
 				{
-					"id": "Workbooks/Virtual Machines - Performance Analysis/Performance Analysis for a Group of VMs (Azure Preview)",
+					"id": "../../../../../../../../test/liv/books?ref=main",
 					"author": "Microsoft",
 					"description": "Provides CPU, Memory, Disk, and Network metrics collected by Azure Monitor for VMs (uses 'InsightsMetrics' table in Log analytics).",
 					"name": "Performance (Azure Preview)",
