@@ -3,8 +3,8 @@
 	"version": "TemplateGallery/1.0",
 	"categories": [
 		{
-			"id": "test",
-			"name": "test template",
+			"id": "Azure Monitor - Recently modified workbooks",
+			"name": "Recently modified workbooks",
 			"templates": [
 				{
 					"id": "test/liv/books#23",
@@ -16,7 +16,8 @@
 					"id": "Workbooks/Azure Monitor - Getting Started/Resource Picker",
 					"author": "Microsoft",
 					"description": "Allows selection of resources to analyze",
-					"name": "Resource Picker"
+					"name": "Resource Picker",
+					"isPreview": true
 				}
 			]
 		},
@@ -34,7 +35,8 @@
 					"id": "Workbooks/Azure Monitor - Getting Started/Resource Picker",
 					"author": "Microsoft",
 					"description": "Allows selection of resources to analyze",
-					"name": "Resource Picker"
+					"name": "Resource Picker",
+					"isPreview": true
 				}
 			]
 		},
