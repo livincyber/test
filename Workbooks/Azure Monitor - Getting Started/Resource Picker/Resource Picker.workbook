@@ -3720,7 +3720,7 @@
                             "armActionContext": {
                               "headers": [],
                               "params": [],
-                              "httpMethod": "POST",
+                              "httpMethod": "PUT",
                               "description": "# ARM actions can potentially modify resources.\n## Please use caution and include a confirmation message in this description when authoring this command."
                             }
                           }
