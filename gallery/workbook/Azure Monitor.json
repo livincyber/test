@@ -34,7 +34,8 @@
 					"id": "Workbooks/Azure Monitor - Getting Started/Resource Picker",
 					"author": "Microsoft",
 					"description": "Allows selection of resources to analyze",
-					"name": "Resource Picker"
+					"name": "Resource Picker",
+					"isPreview": true
 				}
 			]
 		},
