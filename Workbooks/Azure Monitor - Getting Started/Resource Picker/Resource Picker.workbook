@@ -10,6 +10,29 @@
         "queryType": 12
       },
       "name": "query - 0"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "ARMActionContext/1.0",
+        "armActionContext": {
+          "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}",
+          "headers": [
+            {"key": "Content-Type", "value": "application/json"}
+          ],
+          "params": [
+            {"key": "api-version", "value": "2022-12-01"}
+          ],
+          "body": "{\"property\": \"value\"}",
+          "isLongOperation": true,
+          "httpMethod": "POST",
+          "title": "Execute ARM Action",
+          "description": "This action executes an ARM operation with the specified parameters.",
+          "actionName": "CustomARMAction",
+          "runLabel": "Run ARM Action"
+        }
+      },
+      "name": "ARM Action Context"
     }
   ],
   "fallbackResourceIds": [
